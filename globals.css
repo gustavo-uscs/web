@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    top: 2rem;
+    left: 2rem;
+
+    & > a {
+        color: #aaa;
+        text-decoration-style: wavy;
+        text-decoration-color: #bbb;
+        font-weight: 500;
+
+        &.active {
+            color: #000;
+        }
+    }
+}
+
+main {
+    max-width: 620px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
