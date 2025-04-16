@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora com Diferentes Declarações de Variáveis</title>
+    <script src="script2.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="ex01.html">Exemplo 01</a>
+        <a href="ex02.html">Exemplo 02</a>
+    </nav>
+    
+    <h2>Calculadora com Diferentes Declarações de Variáveis</h2>
+
+    <form action="" method="">
+        <label>Número 1:</label>
+        <input type="number" id="num1" name="num1" required><br>
+
+        <label>Número 2:</label>
+        <input type="number" id="num2" name="num2" required><br>
+
+        <button type="button" onclick="calcularComVar()">Somar com var</button>
+        <button type="button" onclick="calcularComLet()">Somar com let</button>
+        <button type="button" onclick="calcularComConst()">Somar com const</button>
+    </form>
+
+    <p id="resultado"></p>
+</body>
+</html>
